@@ -50,7 +50,6 @@ body {
 }
 
 .navbar {
-    /* width: 100%; */
     height: 9vh;
     display: flex;
     align-items: center;
@@ -80,7 +79,6 @@ body {
 
 .navbar ul img {
     margin-left: 40px;
-    /* display: none; */
 }
 
 .navbar ul li a:hover {
@@ -265,11 +263,6 @@ body {
     font-size: 15px;
 }
 
-
-/* 1st : 376px */
-/* 2nd 414px */
-/* 3rd 487px */
-
 @media (max-width: 1441px) {
     .right-container .right-text p {
         margin-bottom: 13px;
@@ -293,7 +286,6 @@ body {
     }
     
     .right-container .right-text p {
-        color: var(--Dark-grayish-blue);
         font-size: 10px;
         margin-bottom: 25px;
     }
@@ -342,13 +334,9 @@ body {
         bottom: 135px;
         left: 130px;
     }
-    .bottom .box3-text {
-        width: 61%;
-    }
 }
 
 @media (max-width: 1126px) {
-    
     .container {
         width: 100%;
         height: 100vh;
@@ -377,7 +365,6 @@ body {
         font-size: 3vw;
     }
     .right-container {
-        background-color: var(--Very-dark-blue);
         width: 100%;
         height: 58%;
         position: absolute;
@@ -402,7 +389,6 @@ body {
 
 @media (min-width: 972px) and (max-width: 1126px){
     .right-container {
-        background-color: var(--Very-dark-blue);
         width: 100%;
         height: 58%;
         position: absolute;
@@ -415,7 +401,6 @@ body {
         flex-direction: column;
         top: 1120px;
     }
-    
 }
 
 @media (max-width: 798px) {
@@ -423,7 +408,6 @@ body {
         transition: transform 0.3s ease-in;
     }
     .sidebarGo{
-        /* transform: translate(480px, 0px); */
         transform: translate(650px, 0px);
         position: absolute;
     }
@@ -432,15 +416,13 @@ body {
         align-items: normal;
         justify-content: space-between;
     } 
-    
     .navbar ul {
-        background-color: red;
+        background-color: var(--Grayish-blue);
         display: block;
         height: 100vh;
         z-index: 99;
         width: 65%;
     }
-    
     .hamburger {
         position: absolute;
         cursor: pointer;
@@ -453,7 +435,6 @@ body {
     .cross {
         margin-right: 0vw;
     }
-
     .navbar ul li {
         list-style-type: none;
         position: relative;
@@ -468,7 +449,7 @@ body {
         transition: transform 0.3s ease-in;
     }
     .sidebarGo{
-        transform: translate(480px, 0px);
+        transform: translate(650px, 0px);
         position: relative;
     }
     .navbar {
@@ -478,7 +459,7 @@ body {
     } 
     
     .navbar ul {
-        background-color: red;
+        background-color: var(--Grayish-blue);
         display: block;
         height: 130vh;
         z-index: 99;
@@ -505,11 +486,7 @@ body {
         font-size: 5.5vw;
         margin-bottom: 20px;
     } 
-
-
-
     .container {
-        /* background-color: red; */
         width: 100%;
         min-height: 100vh;
         padding: 20px;
@@ -518,12 +495,6 @@ body {
         height: 100vh;
         width: 100%;
     }
-    /* .navbar ul li {
-        display: none;
-    }
-    .navbar ul img {
-        display: block; */
-    
     .left-container {
         height: 87vh;
         width: 100%;
@@ -545,13 +516,12 @@ body {
     }
     .right-container {
         background-color: var(--Very-dark-blue);
-    width: 100%;
-    height: 58%;
-    position: relative;
-    top: 606px;
+        width: 100%;
+        height: 58%;
+        position: relative;
+        top: 606px;
     }
     .bottom {
-        /* background-color: seagreen; */
         width: 100%;
         height: 65vh;
         display: flex;
